@@ -67,7 +67,7 @@ export function Footer() {
 
         <div className="border-t border-border mt-8 pt-8">
           <p className="text-center text-muted-foreground text-sm">
-            © {new Date().getFullYear()} Elegance Restaurant. All rights reserved.
+            © {new Date().getFullYear()} Elegance Restaurant. All rights reserved. ZRS
           </p>
         </div>
       </div>
