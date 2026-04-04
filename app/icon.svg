@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Deep Emerald Background -->
+  <rect width="512" height="512" fill="#0A1D12" rx="100"/>
+  <!-- Gold 'E' Typography -->
+  <text x="50%" y="52%" font-family="Times New Roman, Georgia, serif" font-size="320" font-weight="bold" fill="#D9B75B" text-anchor="middle" dominant-baseline="central">E</text>
+  <!-- Subtle inner border -->
+  <rect x="24" y="24" width="464" height="464" fill="none" stroke="#D9B75B" stroke-width="8" stroke-opacity="0.5" rx="84"/>
+</svg>
