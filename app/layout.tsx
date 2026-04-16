@@ -9,6 +9,10 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 export const metadata: Metadata = {
   title: 'Elegance Fine Dining | Unforgettable Culinary Experience',
   description: 'Experience exquisite fine dining at Elegance Restaurant. Reserve your table today for a memorable culinary journey.',
+  icons: {
+    icon: '/favicon.ico',
+    apple: '/apple-touch-icon.png',
+  },
 }
 
 export default function RootLayout({

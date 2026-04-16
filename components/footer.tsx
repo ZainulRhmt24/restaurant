@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { Phone, Mail, MapPin } from 'lucide-react'
 
 export function Footer() {
@@ -8,7 +9,17 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand */}
           <div>
-            <h3 className="text-xl font-bold text-primary mb-4">Elegance</h3>
+            <div className="flex items-center gap-3 mb-4">
+              <div className="relative w-8 h-8">
+                <Image
+                  src="/logo.png"
+                  alt="Elegance Logo"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+              <h3 className="text-xl font-bold text-primary">Elegance</h3>
+            </div>
             <p className="text-muted-foreground">
               Experience exquisite fine dining in an elegant atmosphere.
             </p>
